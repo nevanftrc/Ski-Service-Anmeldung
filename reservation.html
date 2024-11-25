@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contacts - Jetstream-Service</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="../css/reservation.css">
+</head>
+<body>
+
+  <!-- Header Section -->
+  <header class="header text-white py-3">
+    <div class="container d-flex justify-content-between align-items-center">
+      <h1 class="m-0">Jetstream-Service</h1>
+      <button class="btn btn-warning" onclick="window.location.href='../html/reservation.html'">Reservation</button>
+    </div>
+  </header>
+
+  <!-- Navigation -->
+  <nav class="navbar navbar-expand-lg custom-navbar">
+    <div class="container">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link" href="../html/home.html">HOME</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="../html/services.html">SERVICES</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">CONTACTS</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- Breadcrumb -->
+  <div class="breadcrumb-container">
+    <div class="container">
+      <nav aria-label="breadcrumb">
+        <ol class="breadcrumb m-0">
+          <li class="breadcrumb-item">
+            <a href="../html/home.html">Home</a>
+          </li>
+          <li class="breadcrumb-item active" aria-current="page">Contacts</li>
+        </ol>
+      </nav>
+    </div>
+  </div>
+
+  <!-- Registration Form -->
+  <section id="form-wrapper" class="py-5">
+    <div class="container">
+      <h2 class="text-center mb-4 text-black"><strong>Register</strong></h2>
+      <form id="registrationForm" onsubmit="validateForm(event)">
+        <div class="mb-3">
+          <label for="name" class="form-label">Name</label>
+          <input type="text" id="name" class="form-control" placeholder="Enter your name" required>
+        </div>
+        <div class="mb-3">
+          <label for="email" class="form-label">Email</label>
+          <input type="email" id="email" class="form-control" placeholder="Enter your email" required>
+        </div>
+        <div class="mb-3">
+          <label for="phone" class="form-label">Phone Number</label>
+          <input type="tel" id="phone" class="form-control" placeholder="Enter your phone number" required>
+        </div>
+        <div class="mb-3">
+          <label for="service" class="form-label">Service</label>
+          <select id="service" class="form-select" required>
+            <option value="">Select a service</option>
+            <option value="small">Small Service</option>
+            <option value="big">Big Service</option>
+            <option value="race">Racing Service</option>
+            <option value="binding">Binding Adjustment</option>
+            <option value="wax">Hot Waxing</option>
+          </select>
+        </div>
+        <div class="mb-3">
+          <label for="priority" class="form-label">Priority</label>
+          <select id="priority" class="form-select" required>
+            <option value="">Select a priority</option>
+            <option value="low">Low (+5 days)</option>
+            <option value="standard">Standard (7 days)</option>
+            <option value="express">Express (-2 days)</option>
+          </select>
+        </div>
+        <button type="submit" class="btn btn-success w-100">Submit Application</button>
+      </form>
+    </div>
+  </section>
+
+  <!-- Footer Section -->
+  <footer class="footer bg-light text-center py-4">
+    <div class="container">
+      <p class="mb-0">&copy; 2024 Jetstream-Service. Privacy Policy.</p>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="../javascript/main.js"></script>
+  <script src="../javascript/reservation.js"></script>
+</body>
+</html>

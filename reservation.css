@@ -1,0 +1,94 @@
+/* Header*/
+.py-3 {
+    background-color: #41729F;
+}
+
+
+/* Navigation Bar */
+.custom-navbar {
+    background-color: #FFB347;
+    border: radius 1px;;
+    border-color: #c28a3d;
+  }
+  
+  .custom-navbar .nav-link {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: white;
+  }
+  
+   
+  /* Breadcrumb */
+  .breadcrumb-container {
+    background-color: #41729F;
+    padding: 0.5rem;
+  }
+  
+  .breadcrumb .breadcrumb-item a {
+    color: white;
+  }
+  
+  .breadcrumb .breadcrumb-item.active {
+    color: white;
+  }
+
+
+  /* Footer */
+  .footer {
+    background-color: #F8F9FA;
+    color: black;
+  }
+  
+ /* Formular */
+#form .container {
+  max-width: 600px;
+  background-color: #ffffff;
+  padding: 2rem;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+#form h2 {
+  color: #41729F;
+}
+
+#form .btn-success {
+  background-color: #28a745;
+  border: none;
+}
+
+#form .btn-success:hover {
+  background-color: #218838;
+}
+
+/* Form Wrapper Background */
+#form-wrapper {
+  background-color: #41729F;
+}
+
+#form-wrapper .container {
+  max-width: 600px;
+  background-color: #ffffff;
+  padding: 2rem;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+#form-wrapper h2 {
+  color: #ffffff;
+}
+
+#form-wrapper .btn-success {
+  background-color: #28a745;
+  border: none;
+}
+
+#form-wrapper .btn-success:hover {
+  background-color: #218838;
+}
+
+
+
+
+
+

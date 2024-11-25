@@ -1,0 +1,50 @@
+/* Header*/
+.py-3 {
+    background-color: #41729F;
+}
+
+
+/* Navigation Bar */
+.custom-navbar {
+    background-color: #FFB347;
+    border: radius 1px;;
+    border-color: #c28a3d;
+  }
+  
+  .custom-navbar .nav-link {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: white;
+  }
+  
+   
+  /* Breadcrumb */
+  .breadcrumb-container {
+    background-color: #41729F;
+    padding: 0.5rem;
+  }
+  
+  .breadcrumb .breadcrumb-item a {
+    color: white;
+  }
+  
+  .breadcrumb .breadcrumb-item.active {
+    color: white;
+  }
+  
+  /* Map Section */
+  .map-section {
+    padding: 2rem 0;
+  }
+
+  /* Contact info */
+.py-5 {
+  background-color: #41729F;
+ }
+
+  /* Footer */
+  .footer {
+    background-color: #F8F9FA;
+    color: black;
+  }
+  
